@@ -1,0 +1,9 @@
+/*
+ * Copyright 2020 Alex Syrnikov <masterspline@gmx.com>
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#define CPP_VAR $config_enable_feature$
+#if !CPP_VAR
+#  undef CPP_VAR
+#endif

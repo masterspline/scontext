@@ -1,0 +1,6 @@
+exe{configured}: {hxx ixx txx cxx}{** -config} hxx{config}
+
+hxx{config}: in{config}
+# in{config.hpp}: config.hpp.in
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

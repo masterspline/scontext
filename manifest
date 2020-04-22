@@ -1,0 +1,11 @@
+: 1
+name: configured
+version: 0.1.0-a.0.z
+summary: build2 configured C++ executable
+license: Apache-2.0
+description-file: README.md
+url: https://github.com/masterspline/configured
+email: masterspline@gmx.com
+depends: * build2 >= 0.12.0
+depends: * bpkg >= 0.12.0
+#depends: libhello ^1.0.0
